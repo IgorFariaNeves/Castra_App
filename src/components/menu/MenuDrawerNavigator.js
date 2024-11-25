@@ -13,7 +13,7 @@ export default menuDrawerNavigator = ()=>{
 
 
 return(
-    <NavigationContainer>
+    <NavigationContainer >
         <Drawer.Navigator initialRouteName="home">
 
             <Drawer.Screen name="home" component={HomeView} />

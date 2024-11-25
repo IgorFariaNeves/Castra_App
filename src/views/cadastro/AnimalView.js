@@ -1,13 +1,18 @@
 import { StyleSheet, View, Text } from "react-native";
 import { Text as PaperText } from "react-native-paper";
-import MenuBottomNavigator from "../components/menu/MenuBottomNavigator";
 
 
-export default CadastroView = ()=>{
+export default AnimalView = ()=>{
 
 
 return(
-    <MenuBottomNavigator />
+    <View style={styles.container}>
+
+
+        <Text>ANIMAL VIEW</Text>
+
+
+    </View>
 
 
 
