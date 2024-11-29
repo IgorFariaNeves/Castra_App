@@ -1,4 +1,5 @@
-import * as SQLite from 'expo-sqlite/next';
+import * as SQLite from 'expo-sqlite';
+
 
 export async function getDbConnection() {
     const cx = await SQLite.openDatabaseAsync('quiz.database');
